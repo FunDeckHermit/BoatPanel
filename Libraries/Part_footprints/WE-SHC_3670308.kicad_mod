@@ -1,0 +1,309 @@
+(footprint "WE-SHC_3670308"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SH601"
+		(at -16.6 -7.8 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b847f1ca-9293-4645-bf35-67197634c2e1")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "RFShield_TwoPieces"
+		(at 3.6 11.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "24fe4006-7120-4c4c-83e6-3b9253660123")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "_projectlib:WE-SHC_3670308"
+		(at -3.4 10.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa4bebb4-57cf-4ede-bd6c-c9ca00304d9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/3670308.pdf"
+		(at -3.4 10.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "282fa9f0-b96b-40ff-9853-62abb758ed56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "17.2x30.2x4.4 Two-piece EMI RF shielding cabinet"
+		(at -3.4 10.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c8bd11b-6aea-4ebf-85fc-f8ba17baa76b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Wurth"
+		(at -6.975 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d34be1cb-f43a-4541-913a-69ac4a8040d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "3670308 and 3671308"
+		(at 2.5 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a90afa5-2bc4-4968-b51e-97487537d2ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "S1 Part link" "https://mou.sr/4cc669Z"
+		(at 2.5 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f73599ab-5800-43ad-b64c-a9642622f2eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "S1 Price @ 100" "4.28"
+		(at -6.975 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9373b782-22b3-456a-a793-fec9da8d37ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "S1 Part number" "710-3670308 and  710-3671308"
+		(at 2.5 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0821b26e-de29-47ac-91d9-d43a630f9229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "S1 Description" "EMI-pakkingen, -bladen, -dempers en -schilden WE-SHC Seemless Cab Frame 30.8mm "
+		(at 2.5 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90d4b5f0-0531-4b4e-8cf3-3fbba7e49e54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 3.6 12.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5dbb399e-cec1-40cd-8f42-391d7680fa22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -12.8 8.75)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin -0.5)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.125 -0.35) (xy -1.11045 -0.449868) (xy -1.059847 -0.553377) (xy -0.978377 -0.634847) (xy -0.874868 -0.68545)
+					(xy -0.775 -0.7) (xy 0.775 -0.7) (xy 0.874868 -0.68545) (xy 0.978377 -0.634847) (xy 1.059847 -0.553377)
+					(xy 1.11045 -0.449868) (xy 1.125 -0.35) (xy 1.125 0.35) (xy 1.11045 0.449868) (xy 1.059847 0.553377)
+					(xy 0.978377 0.634847) (xy 0.874868 0.68545) (xy 0.775 0.7) (xy -0.775 0.7) (xy -0.874868 0.68545)
+					(xy -0.978377 0.634847) (xy -1.059847 0.553377) (xy -1.11045 0.449868) (xy -1.125 0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_line
+				(start 26.55 0)
+				(end -0.95 0)
+				(width 1.5)
+			)
+			(gr_arc
+				(start -0.95 0)
+				(mid -2.01066 -0.43934)
+				(end -2.45 -1.5)
+				(width 1.5)
+			)
+			(gr_line
+				(start -2.45 -1.5)
+				(end -2.45 -16)
+				(width 1.5)
+			)
+			(gr_arc
+				(start 28.05 -1.5)
+				(mid 27.61066 -0.43934)
+				(end 26.55 0)
+				(width 1.5)
+			)
+			(gr_line
+				(start 28.05 -16)
+				(end 28.05 -1.5)
+				(width 1.5)
+			)
+			(gr_arc
+				(start -2.45 -16)
+				(mid -2.01066 -17.06066)
+				(end -0.95 -17.5)
+				(width 1.5)
+			)
+			(gr_line
+				(start -0.95 -17.5)
+				(end 26.55 -17.5)
+				(width 1.5)
+			)
+			(gr_arc
+				(start 26.55 -17.5)
+				(mid 27.61066 -17.06066)
+				(end 28.05 -16)
+				(width 1.5)
+			)
+		)
+		(uuid "d21a9c18-b2c0-4b1c-9316-21c6964e4a54")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "6f782644-314d-4cac-9b77-ed5aad2d9e64")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 14.45 -7.185)
+					(mid 14.225937 -7.725937)
+					(end 13.685 -7.95)
+				)
+				(arc
+					(start -13.685 -7.95)
+					(mid -14.225937 -7.725937)
+					(end -14.45 -7.185)
+				)
+				(xy -14.45 -0.025) (xy -14.5 -0.025)
+				(arc
+					(start -14.5 -7.235)
+					(mid -14.275937 -7.775937)
+					(end -13.735 -8)
+				)
+				(arc
+					(start 13.735 -8)
+					(mid 14.275937 -7.775937)
+					(end 14.5 -7.235)
+				)
+				(arc
+					(start 14.5 7.235)
+					(mid 14.275937 7.775937)
+					(end 13.735 8)
+				)
+				(arc
+					(start -13.735 8)
+					(mid -14.275937 7.775937)
+					(end -14.5 7.235)
+				)
+				(xy -14.5 0.025) (xy -14.45 0.025)
+				(arc
+					(start -14.45 7.185)
+					(mid -14.225937 7.725937)
+					(end -13.685 7.95)
+				)
+				(arc
+					(start 13.685 7.95)
+					(mid 14.225937 7.725937)
+					(end 14.45 7.185)
+				)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/Libraries/Part_3D_models/STP_3670308 (rev1).stp"
+		(offset
+			(xyz 0 0 4.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
